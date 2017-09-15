@@ -39,7 +39,7 @@ powerUsage <- read.table(fileName,
 names(powerUsage) <- read.table(fileName,
                                 sep = ";",
                                 stringsAsFactors = FALSE,
-                                nrows = 1)[1,]
+                                nrows = 1)
 
 ################
 ## Make and write plot to png file
